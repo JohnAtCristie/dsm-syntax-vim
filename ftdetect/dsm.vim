@@ -1,2 +1,2 @@
 "ftdetect/dsm.vim
-autocmd BufNewFile,BufRead *.opt setfiletype dsm
+autocmd BufNewFile,BufRead *.opt,*.sys set filetype=dsm
