@@ -11,5 +11,5 @@ _Todo_
 - Hilight for arguments
 
 _Howto_
-- Windows: Add files and directories to $HOME\vimfiles\syntax
-- Linux: cd ~/.vim/syntax/ && git clone https://github.com/JohnAtCristie/dsm-syntax-vim
+- Windows: Add files and directories to $HOME\vimfiles\
+- Linux: git clone https://github.com/JohnAtCristie/dsm-syntax-vim and copy the files and directories to ~/.vim/
