@@ -7,5 +7,10 @@ Syntax highlighting for vim editor
 
 
 _Todo_
+- Linux support (.sys-file) 
 - Keyword case insensitive 
 - Hilight for arguments
+
+_Howto_
+Wind: Add files and directories to $HOME\vimfiles\syntax
+Linux: cd ~/.vim/syntax/ && git clone https://github.com/JohnAtCristie/dsm-syntax-vim
