@@ -7,7 +7,6 @@ Syntax highlighting for vim editor
 
 
 _Todo_
-- Linux support (.sys-file) 
 - Keyword case insensitive 
 - Hilight for arguments
 
