@@ -32,12 +32,17 @@ syntax keyword dsmOptKeyword
 	\ DEDUPCACHES[IZE]
 	\ PASSWORDA[CCESS]
 	\ ERRORLOGN[AME]
+	\ ERRORLOGR[etention]
+	\ ERRORLOGMAX
 	\ SCHEDLOGN[AME]
+	\ SCHEDLOGR[etention]
+	\ SCHEDLOGMAX
 	\ MANAGEDS[ERVICES]
 	\ COMPRESS[ION]
 	\ ENABLEDEDUPC[ACHE]
 	\ DEDUPCASHES[IZE]
 	\ EXCLUDE
+	\ REVOKE[remoteaccess]
 	\ VIRTUALM[ountpoint]
 	\ SCHEDCMDD[isabled]
 	\ SCHEDCMDE[xception]
