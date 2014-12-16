@@ -2,6 +2,9 @@
 " Maintainer: John Skjönsberg (johns@crisite.se)
 " URL: https://github.com/JohnAtCristie/dsm-syntax-vim
 " Last Change: 2014-12-16
+" Version: 0.6
+
+
 if exists("b:current_syntax")
 	finish
 endif
@@ -43,6 +46,9 @@ syntax keyword dsmOptKeyword
 	\ SSLDISABLELEGACY[tls]
 	\ SSL nextgroup=dsmNumber
 
+" dsm Yes/no
+syntax keyword dsmYN YES NO
+
 " Strings
 syntax region dsmString start='"' end='"' contained
 syntax region dsmDesc start='"' end='"'
@@ -57,4 +63,5 @@ highlight default link dsmNumber Number
 highlight default link dsmDesc String
 highlight default link dsmType Type
 highlight default link dsmOptKeyword Keyword
+highlight default link dsmYN boolean
 let b:current_syntax = "dsm"
