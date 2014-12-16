@@ -5,6 +5,9 @@ if exists("b:current_syntax")
 	finish
 endif
 
+" Ignore casing
+syntax case ignore
+
 "  DSM option files comments start with a *
 syntax keyword dsmTodo contained TODO FIXME XXX NOTE
 syntax match dsmComment "^*.*$" contains=dsmTodo
