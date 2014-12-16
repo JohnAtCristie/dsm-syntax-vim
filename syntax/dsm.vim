@@ -1,6 +1,7 @@
 "Vim syntax file for dsm.{opt|sys}
 " Maintainer: John Skjönsberg (johns@crisite.se)
-"
+" URL: https://github.com/JohnAtCristie/dsm-syntax-vim
+" Last Change: 2014-12-16
 if exists("b:current_syntax")
 	finish
 endif
@@ -12,9 +13,10 @@ syntax case ignore
 syntax keyword dsmTodo contained TODO FIXME XXX NOTE
 syntax match dsmComment "^*.*$" contains=dsmTodo
 
+" Hmm...
 syntax match dsmNumber '\d\+' contained display
 
-"syntax match dsmParam
+" dsm.sys keyword list, continuously growing
 syntax keyword dsmOptKeyword
 	\ COMMM[ETHOD]
 	\ SE[RVERNAME]
@@ -33,8 +35,6 @@ syntax keyword dsmOptKeyword
 	\ ENABLEDEDUPC[ACHE]
 	\ DEDUPCASHES[IZE]
 	\ EXCLUDE
-	\ EXCLUDE\.DIR
-	\ EXCLUDE\.BACKUP
 	\ TCPS[ERVERADDRESS]
 	\ SSLFIPSMODE
 	\ ENCRYPTIONT[ype]
@@ -43,9 +43,11 @@ syntax keyword dsmOptKeyword
 	\ SSLDISABLELEGACY[tls]
 	\ SSL nextgroup=dsmNumber
 
+" Strings
 syntax region dsmString start='"' end='"' contained
 syntax region dsmDesc start='"' end='"'
 
+" Highlighting
 highlight default link dsmTodo Todo
 highlight default link dsmShebang Comment
 highlight default link dsmComment Comment
