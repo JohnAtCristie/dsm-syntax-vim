@@ -7,6 +7,7 @@ Syntax highlighting for vim editor
 
 _Todo_
 - Hilight for arguments
+- Auto-align the arguments
 
 _Howto_
 - Windows: Add files and directories to $HOME\vimfiles\
