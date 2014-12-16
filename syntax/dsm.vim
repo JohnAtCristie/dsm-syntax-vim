@@ -38,6 +38,13 @@ syntax keyword dsmOptKeyword
 	\ ENABLEDEDUPC[ACHE]
 	\ DEDUPCASHES[IZE]
 	\ EXCLUDE
+	\ VIRTUALM[ountpoint]
+	\ SCHEDCMDD[isabled]
+	\ SCHEDCMDE[xception]
+	\ PRESC[hedulecmd]
+	\ POSTSC[hedulecmd]
+	\ PRENSC[hedulecmd]
+	\ POSTNSC[hedulecmd]
 	\ TCPS[ERVERADDRESS]
 	\ SSLFIPSMODE
 	\ ENCRYPTIONT[ype]
