@@ -1,6 +1,6 @@
 dsm-syntax-vim
 ==============
-Version: 0.1
+Version: 0.6
 VIm syntax hilight for TSM client option file. Tivoli storage manager
 
 Syntax highlighting for vim editor
