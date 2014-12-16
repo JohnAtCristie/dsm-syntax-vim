@@ -14,8 +14,10 @@ _Install_
 - Linux: git clone https://github.com/JohnAtCristie/dsm-syntax-vim and copy the files and directories to ~/.vim/
 
 _How-to_
+
 The opt-file support shortened syntax and the syntax highlight supports that, example:
 
 	>>-NODename-- --nodename---------------------------------------><
 
-NOD is mandatory and the plugit will hilight from there (not case sensitive)
+NOD is mandatory and the plugit will hilight from there (not case sensitive).
+
