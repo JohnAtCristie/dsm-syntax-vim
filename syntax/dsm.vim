@@ -49,6 +49,9 @@ syntax keyword dsmOptKeyword
 " dsm Yes/no
 syntax keyword dsmYN YES NO
 
+" dsm encryption 
+syntax keyword dsmENC AES128 AES256 DES56
+
 " Strings
 syntax region dsmString start='"' end='"' contained
 syntax region dsmDesc start='"' end='"'
@@ -64,4 +67,5 @@ highlight default link dsmDesc String
 highlight default link dsmType Type
 highlight default link dsmOptKeyword Keyword
 highlight default link dsmYN boolean
+highlight default link dsmENC PreProc
 let b:current_syntax = "dsm"
