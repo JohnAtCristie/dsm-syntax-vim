@@ -28,8 +28,10 @@ syntax keyword dsmOptKeyword
 	\ TCPP[ORT]
 	\ TCPADMINP[ORT]
 	\ SNAPSHOTPROVIDERF[S]
+	\ SNAPSHOTPROVIDERI[mage]
 	\ DEDUPL[ICATION]
 	\ DEDUPCACHES[IZE]
+	\ DATE[format]
 	\ PASSWORDA[CCESS]
 	\ ERRORLOGN[AME]
 	\ ERRORLOGR[etention]
@@ -41,6 +43,7 @@ syntax keyword dsmOptKeyword
 	\ COMPRESS[ION]
 	\ ENABLEDEDUPC[ACHE]
 	\ DEDUPCASHES[IZE]
+	\ QUERYSCH[edperiod]
 	\ EXCLUDE
 	\ REVOKE[remoteaccess]
 	\ VIRTUALM[ountpoint]
