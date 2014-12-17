@@ -7,7 +7,7 @@ Syntax highlighting for vim editor
 
 _Todo_
 - Hilight for arguments
-- Auto-align the arguments
+- [Auto-Align second column](https://github.com/JohnAtCristie/dsm-syntax-vim/issues/1)
 
 _Install_
 - Windows: Add files and directories to $HOME\vimfiles\
