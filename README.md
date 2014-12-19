@@ -19,5 +19,5 @@ The opt-file support shortened syntax and the syntax highlight supports that, ex
 
 	>>-NODename-- --nodename---------------------------------------><
 
-NOD is mandatory and the plugit will hilight from there (not case sensitive).
+NOD is mandatory and the plugin will hilight from there (not case sensitive).
 
