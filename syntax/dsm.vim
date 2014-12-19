@@ -39,6 +39,7 @@ syntax keyword dsmOptKeyword
 	\ SCHEDLOGN[AME]
 	\ SCHEDLOGR[etention]
 	\ SCHEDLOGMAX
+	\ COMPRESSA[lways]
 	\ MANAGEDS[ERVICES]
 	\ COMPRESS[ION]
 	\ ENABLEDEDUPC[ACHE]
