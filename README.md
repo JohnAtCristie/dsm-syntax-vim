@@ -6,7 +6,7 @@ VIm syntax hilight for TSM client option file. Tivoli storage manager
 Syntax highlighting for vim editor
 
 _Todo_
-- Hilight for arguments
+- [Hilight for arguments](https://github.com/JohnAtCristie/dsm-syntax-vim/issues/2)
 - [Auto-Align second column](https://github.com/JohnAtCristie/dsm-syntax-vim/issues/1)
 
 _Install_
